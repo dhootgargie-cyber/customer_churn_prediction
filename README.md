@@ -17,9 +17,9 @@ After removing 11 rows with blank `TotalCharges`: 7,032 rows. Churn rate: ~26.6%
 ## Results (test set)
 | Model | ROC-AUC | Precision (churn) | Recall (churn) |
 |---|---|---|---|
-| Logistic Regression | 0.XX | 0.XX | 0.XX |
+| Logistic Regression | 0.83 | 0.XX | 0.XX |
 | XGBoost | 0.83 | 0.63 | 0.50 |
-| XGBoost (class-weighted) | 0.XX | 0.XX | 0.XX |
+| XGBoost (class-weighted) | 0.83 | 0.50 | 0.80 |
 
 5-fold CV ROC-AUC: XGBoost 0.XX ± 0.0X
 
